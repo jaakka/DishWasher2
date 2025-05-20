@@ -1,22 +1,8 @@
 #ifndef VALUES_H
 #define VALUES_H
 
-// On/off sensors
-#define SENSOR_BOOL_DOOR 0
-#define SENSOR_BOOL_LEAK 1
-#define SENSOR_BOOL_LEVEL 2
-#define SENSOR_BOOL_OVERHEAT 3
-
-// Sensors with value
-#define SENSOR_VAL_TEMPERATURE 0
-#define SENSOR_VAL_QUALITY 1
-
-// Relays
-#define RELAY_PUMP 0
-#define RELAY_SOAP 1
-#define RELAY_WASH 2
-#define RELAY_HEAT 3
-#define RELAY_POWER 4
+#define PROGRAM_MENU 0
+#define PROGRAM_QUICKWASH 1
 
 // Lcd center
 #define LCD_TEXT_POS_CENTER_TOP 0
@@ -86,7 +72,7 @@
 
 // Background image positions
 
-#define LCD_BACKGROUND_POS_RIGHT_TOP 5,
+#define LCD_BACKGROUND_POS_RIGHT_TOP 5
 #define LCD_BACKGROUND_POS_RIGHT_BOTTOM 4
 #define LCD_BACKGROUND_POS_LEFT_BOTTOM 3
 #define LCD_BACKGROUND_POS_LEFT_TOP 2

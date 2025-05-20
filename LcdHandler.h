@@ -4,15 +4,12 @@
 #include <Arduino.h>
 #include <SoftwareSerial.h>
 #include "Pins.h"
+#include "Values.h"
 
-enum Line : byte
-{
-    Line1,
-    Line2,
-};
-
-void drawText(Line line, const char *msg);
+void drawText(byte line, const char *msg);
 void initLcd();
 void sendLcdCommand(const char *cmd);
+void clearLcd();
+void drawImage(byte elementId, byte imageId);
 
 #endif
