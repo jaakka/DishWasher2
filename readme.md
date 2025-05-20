@@ -1,5 +1,7 @@
 Started DishWasher code again. This version is more ram optimized.
 
+old version https://github.com/jaakka/DishWasher
+
 ![image](https://github.com/user-attachments/assets/e31573b4-28e8-42ba-8526-4f03b4bda890)
 ![image](https://github.com/user-attachments/assets/c22c6498-f351-4058-a8a4-a9f988c1c50f)
 ![image](https://github.com/user-attachments/assets/617081af-9b23-4be1-a97f-11392f2c00b0)
