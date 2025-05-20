@@ -3,13 +3,7 @@
 
 #include <Arduino.h>
 
-enum Relay : byte
-{
-    RELAY_1,
-    RELAY_2,
-};
-
-void setRelayState(Relay relay, bool newState);
-bool getState(Relay relay);
+void setRelayState(byte relay, bool newState);
+bool getState(byte relay);
 
 #endif

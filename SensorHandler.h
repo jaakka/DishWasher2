@@ -3,19 +3,7 @@
 
 #include <Arduino.h>
 
-enum BoolSensor : byte
-{
-    Door,
-    Leak,
-    Level,
-    Overheat
-};
+bool readSensorState(byte bool_sensor);
+byte readSensorState(byte float_sensor);
 
-enum FloatSensor : byte
-{
-    Temp,
-    Qual
-};
-
-bool readSensorState(BoolSensor sensor);
-float readSensorState(FloatSensor sensor);
+#endif
